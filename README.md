@@ -60,7 +60,7 @@ message VerifyTokenRequest {
 }
 ```
 
-🔧 Upcoming Improvements
+🔧 Upcoming Improvements<br>
 🐧 Linux mastering
 
 🐳 Dockerizing each service
