@@ -4,13 +4,13 @@ A full-fledged backend project implementing a **microservice architecture** usin
 
 ## 📦 Project Structure
 
-grpc-microservices/
-├── auth-service/ # Token verification service (JWT)
-├── user-service/ # Login & Register users
-├── task-service/ # Add/Get tasks (auth-protected)
-├── api-gateway/ # Routes external requests to services
-├── protos/ # Shared .proto files for gRPC
-└── README.md
+grpc-microservices/<br>
+├── auth-service/ # Token verification service (JWT)<br>
+├── user-service/ # Login & Register users<br>
+├── task-service/ # Add/Get tasks (auth-protected)<br>
+├── api-gateway/ # Routes external requests to services<br>
+├── protos/ # Shared .proto files for gRPC<br>
+└── README.md<br>
 
 ---
 
@@ -73,8 +73,9 @@ message VerifyTokenRequest {
 
 🚀 Run Locally
 Each service can be started individually:
-
+```
 cd user-service && node index.js
 cd auth-service && node index.js
 cd task-service && node index.js
 cd api-gateway && node index.js
+```
