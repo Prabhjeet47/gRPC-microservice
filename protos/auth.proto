@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package auth;
+
+service AuthService{
+    rpc VerifyToken (VTRq) returns (VTRs);
+}
+
+message VTRq{
+    string token = 1;
+}
+
+message VTRs{
+    bool valid = 1;
+    string email = 2;
+    string id = 3;
+}

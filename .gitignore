@@ -1,0 +1,11 @@
+#modules
+/api-gateway/node_modules
+/auth-service/node_modules
+/task-service/node_modules
+/user-service/node_modules
+
+#env files
+/api-gateway/.env
+/auth-service/.env
+/task-service/.env
+/user-service/.env
